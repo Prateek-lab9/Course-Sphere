@@ -88,9 +88,7 @@ export const login = async (req, res) => {
 
 export const logout = async (req, res) => {
   try {
-    if(!req.cookies.token){
-        res.status(401).json({ error: "Kindly login first" });
-    }
+   
     res.clearCookie("token");
     res.status(200).json({ message: "Logout Successful" });
   } catch (error) {
