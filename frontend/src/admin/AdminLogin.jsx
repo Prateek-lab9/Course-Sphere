@@ -37,8 +37,8 @@ function AdminLogin() {
         });
       notify();
       console.log(res.data.message, "Login Successful");
+      localStorage.setItem("admin",JSON.stringify(res.data));
       navigate("/admin/dashboard");
-      localStorage.setItem("admin",JSON.stringify(res.data))
     } catch (error) {
       if (error.response) {
         setErrorMessage(error.response.data.errors || "Signup Failed!!");
