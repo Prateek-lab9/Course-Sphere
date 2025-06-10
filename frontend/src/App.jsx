@@ -19,7 +19,7 @@ import UpdateCourse from "./admin/UpdateCourse";
 import OurCourses from "./admin/OurCourses";
 function App() {
   const admin = JSON.parse(localStorage.getItem("admin"));
-  const user = JSON.parse(localStorage.getItem("user"));
+  const user = JSON.parse(localStorage.getItem("token"));
 
   const router = createBrowserRouter([
     {
