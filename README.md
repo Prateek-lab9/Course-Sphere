@@ -8,12 +8,6 @@
 ![Repo Size](https://img.shields.io/github/repo-size/Prateek-lab9/Course-Sphere)
 ![Last Commit](https://img.shields.io/github/last-commit/Prateek-lab9/Course-Sphere)
 
-<div align="center">
-  <img src="https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg" alt="React" width="40"/>
-  <img src="https://upload.wikimedia.org/wikipedia/commons/d/d9/Node.js_logo.svg" alt="Node.js" width="40"/>
-  <img src="https://upload.wikimedia.org/wikipedia/commons/9/93/MongoDB_Logo.svg" alt="MongoDB" width="40"/>
-  <img src="https://cdn.worldvectorlogo.com/logos/express-109.svg" alt="Express" width="40"/>
-</div>
 
 ---
 
@@ -25,7 +19,7 @@
 - [⚙️ Environment Setup](#️-environment-setup)
 - [🛠️ Tech Stack](#️-tech-stack)
 - [🙌 Contributing](#-contributing)
-- [📄 License](#-license)
+
 
 ---
 
