@@ -30,7 +30,7 @@ function Purchases() {
 
       try {
         const res = await axios.get(
-          "http://localhost:9001/api/v1/user/purchases",
+          "https://course-sphere.onrender.com/user/purchases",
           {
             headers: {
               Authorization: `Bearer ${token}`,
@@ -51,7 +51,7 @@ function Purchases() {
 
   const handleLogout = async () => {
     try {
-      const res = await axios.get("http://localhost:9001/api/v1/user/logout", {
+      const res = await axios.get("https://course-sphere.onrender.com/user/logout", {
         withCredentials: true,
       });
       setIsLoggedIn(false);

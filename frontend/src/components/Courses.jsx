@@ -20,7 +20,7 @@ function Courses() {
     const fetchCourses = async () => {
       try {
         const data = await axios.get(
-          "http://localhost:9001/api/v1/course/courses",
+          "https://course-sphere.onrender.com/course/courses",
           {
             withCredentials: true,
           }
@@ -38,7 +38,7 @@ function Courses() {
 
   const handleLogout = async () => {
     try {
-      const res = await axios.get("http://localhost:9001/api/v1/user/logout", {
+      const res = await axios.get("https://course-sphere.onrender.com/user/logout", {
         withCredentials: true,
       });
       setIsLoggedIn(false);

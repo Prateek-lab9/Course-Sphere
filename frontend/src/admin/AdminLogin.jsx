@@ -18,7 +18,7 @@ function AdminLogin() {
     });
     try {
       const res = await axios.post(
-        "http://localhost:9001/api/v1/admin/login",
+        "https://course-sphere.onrender.com/admin/login",
         {
           email,
           password,

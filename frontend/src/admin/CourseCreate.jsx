@@ -38,7 +38,7 @@ function CourseCreate() {
     }
     try {
       const res = await axios.post(
-        "http://localhost:9001/api/v1/course/create",
+        "https://course-sphere.onrender.com/course/create",
         formData,
         {
           headers: {

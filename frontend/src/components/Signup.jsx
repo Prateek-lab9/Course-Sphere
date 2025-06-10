@@ -21,7 +21,7 @@ function Signup() {
     });
     try {
       const res = await axios.post(
-        "http://localhost:9001/api/v1/user/signup",
+        "https://course-sphere.onrender.com/user/signup",
         {
           firstName,
           lastName,

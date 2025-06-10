@@ -42,7 +42,7 @@ function UpdateCourse() {
       }
       try {
         const res = await axios.post(
-          "http://localhost:9001/api/v1/course/create",
+          "https://course-sphere.onrender.com/course/create",
           formData,
           {
             headers: {
@@ -69,7 +69,7 @@ function UpdateCourse() {
     const fetchCourseData = async () => {
       try {
         const { data } = await axios.get(
-          `http://localhost:9001/api/v1/course/${id}`,
+          `https://course-sphere.onrender.com/course/${id}`,
           {
             withCredentials: true,
           }
