@@ -3,10 +3,6 @@
 
 > A complete MERN Stack platform to sell and manage online courses with secure authentication, Stripe payment integration, and cloud media support.
 
-![License](https://img.shields.io/badge/license-MIT-green)
-![Build Status](https://img.shields.io/badge/build-passing-brightgreen)
-![Repo Size](https://img.shields.io/github/repo-size/Prateek-lab9/Course-Sphere)
-![Last Commit](https://img.shields.io/github/last-commit/Prateek-lab9/Course-Sphere)
 
 
 ---
