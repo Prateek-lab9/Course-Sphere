@@ -7,7 +7,7 @@ function AdminDashboard() {
     const navigate = useNavigate()
      const handleLogout = async () => {
     try {
-      const response = await axios.get(`https://course-sphere.onrender.com/admin/logout`, {
+      const response = await axios.get(`https://course-sphere.onrender.com/api/v1/admin/logout`, {
         withCredentials: true,
       });
   if (response?.data?.message) {

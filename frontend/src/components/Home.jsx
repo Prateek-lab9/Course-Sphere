@@ -25,7 +25,7 @@ const user = JSON.parse(localStorage.getItem("token"));
     const fetchCourses = async () => {
       try {
         const data = await axios.get(
-          "https://course-sphere.onrender.com/course/courses",
+          "https://course-sphere.onrender.com/api/v1/course/courses",
           {
             withCredentials: true,
           }
@@ -42,7 +42,7 @@ const user = JSON.parse(localStorage.getItem("token"));
 
   const handleLogout = async () => {
    try {
-     const res = await axios.get("https://course-sphere.onrender.com/user/logout", {
+     const res = await axios.get("https://course-sphere.onrender.com/api/v1/user/logout", {
       withCredentials: true,
     });
     setIsLoggedIn(false);

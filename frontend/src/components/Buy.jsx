@@ -26,7 +26,7 @@ function Buy() {
       }
       try {
         const res = await axios.get(
-          `https://course-sphere.onrender.com/course/buy/${courseId}`,
+          `https://course-sphere.onrender.com/api/v1/course/buy/${courseId}`,
           {
             headers: {
               Authorization: `Bearer ${token}`,
@@ -108,7 +108,7 @@ function Buy() {
         status: paymentIntent.status,
       };
       console.log("payment info: ", paymentInfo);
-      await axios.post("https://course-sphere.onrender.com/order/", paymentInfo, {
+      await axios.post("https://course-sphere.onrender.com/api/v1/order/", paymentInfo, {
         headers: {
           Authorization: `Bearer ${token}`,
         },

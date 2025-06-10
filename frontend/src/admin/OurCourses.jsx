@@ -20,7 +20,7 @@ const navigate = useNavigate();
     const fetchCourses = async () => {
       try {
         const data = await axios.get(
-          "https://course-sphere.onrender.com/course/courses",
+          "https://course-sphere.onrender.com/api/v1/course/courses",
           {
             withCredentials: true,
           }
@@ -39,7 +39,7 @@ const navigate = useNavigate();
   const handleDeleteCourse = async (id) => {
     try {
       const res = await axios.delete(
-        `https://course-sphere.onrender.com/course/delete/${id}`,
+        `https://course-sphere.onrender.com/api/v1/course/delete/${id}`,
         {
           headers: {
             Authorization: `Bearer ${token}`,

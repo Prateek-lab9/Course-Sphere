@@ -18,7 +18,7 @@ function Login() {
     });
     try {
       const res = await axios.post(
-        "https://course-sphere.onrender.com/user/login",
+        "https://course-sphere.onrender.com/api/v1/user/login",
         {
           email,
           password,
