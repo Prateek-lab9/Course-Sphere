@@ -78,7 +78,7 @@ export const login = async (req, res) => {
       expires: new Date(Date.now() + 24 * 60 * 60 * 1000),
       httpOnly: true,
       secure: process.env.NODE_ENV === "production",
-      sameSite: "Strict",
+      sameSite: "None",
     };
     res.cookie("token", token, cookieOptions);
     res.status(200).json({ message: "Login successful", user, token });
