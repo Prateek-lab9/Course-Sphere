@@ -21,7 +21,7 @@ function App() {
   const admin = JSON.parse(localStorage.getItem("admin"));
   console.log(admin)
   const user = JSON.parse(localStorage.getItem("token"));
-
+console.log(user)
   const router = createBrowserRouter([
     {
       path: "/",
